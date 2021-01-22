@@ -1,0 +1,306 @@
+.body{
+    margin: 0%;
+    background-color: rgb(247, 227, 114);
+}
+
+.body1{
+    margin: 0%;
+    background-color: rgb(212, 221, 132);
+    background-image: url(../Assets/fondo.jpg);
+    
+}
+
+.header img{
+    position: fixed;    
+    width: 100%;
+    height: 200px;
+}
+
+.logo{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    left: 75%;
+    top: 5px;
+}
+
+.textoencima{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20pt;
+    color:lime;
+}
+
+.nav{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20pt;
+    width:100%;
+    height: 80px;
+    background-color: rgb(44, 233, 44);
+    padding-top: 1px;
+    text-align: center;
+}
+
+a{  
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 8pt;
+    background-color: rgb(3, 3, 90);
+    padding: 0px 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 20%;
+    display: block;
+    width: 80px;
+}
+
+a:hover{
+    background-color:  rgb(109, 86, 24);
+}
+
+.section{
+    font-family: 'Cambay', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -16%;
+    background-color:goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+}
+
+.section2{
+    background-color: rgb(202, 242, 243);
+    font-family: 'Cambay', sans-serif;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: -16%;
+    padding-left: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+}  
+
+.section3{
+    background-color: transparent
+    font-family: 'Cambay', sans-serif;
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding-left: 150px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 10px;
+    display:inline-block;  
+}
+
+.sectionI{
+    font-family: 'Cambay', sans-serif;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -16%;
+    background-color:goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+}
+
+.balon{
+    float: right;
+    margin-right: 10%;
+    margin-top: -16%
+    
+}
+
+p.p2{
+    padding-left: 40px;
+}
+
+.parrafos{
+    text-align: center;
+}
+
+.gif{
+    margin-left: 70%;
+    margin-top: -25%;
+    float: left;
+}
+
+.mail{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(180, 45, 11);
+    font-size: 12pt;
+    margin-left: 35%;
+    margin-top: -4%;
+    width: 20%;
+}
+
+.flecha{
+    margin-left: 45%;
+    width: 150px;
+    height: 150px;
+}
+
+.orden{
+    list-style: none;
+}
+
+.orden1{
+    list-style:upper-alpha;
+}
+
+table{
+    border: 3px solid;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14pt;
+    border-color:maroon;
+    background-color:rgb(230, 221, 100);
+}
+
+th{
+    background-color: gold;
+    border: 3px solid;
+    border-color: maroon;
+}
+
+td{
+    text-align: center;
+    border: 3px solid;
+    border-color: maroon;
+}
+
+.view{
+    color: rgb(24, 2, 2);
+    background-color: transparent;
+    font-family: 'Cambay', sans-serif;
+    font-size: 20px;
+}
+
+.view:hover{
+    background-color: rgb(44, 233, 44);
+}
+
+.imp2{
+    border: 3px solid;
+    border-color: rgb(10, 156, 5);
+}
+
+.imp3:hover{
+    background-color: olivedrab;
+}
+
+.imp4{
+    background-color: rgb(247, 164, 55);
+}
+
+.h2.2{
+    text-align: center;
+}
+
+.h3.2{
+    text-align: center;
+
+}
+
+#name{
+    width: 30%;
+}
+
+.lname{
+    width: 35%;
+}
+
+.dir{
+    width: 82%;
+}
+
+.cid{
+    width: 38%;
+    display: inline;
+}
+
+.zip{
+    width: 41%;
+}
+
+.bid{
+    width: 20%;
+}
+
+input[type="text"]{
+    border: 2px solid rgb(199, 84, 84);
+    border-radius: 10pt;  
+}
+
+.curso{
+    color: chartreuse;
+    border-color: chartreuse;
+    border-style: groove;
+    background-color: aqua;    
+}
+
+form{
+    width: 100%;
+    margin: 0%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.table2{
+    background-color: rgb(238, 209, 129);
+    border: 0px solid;
+    width: 60%;
+    margin-left: 10%;
+    font-size: 14pt;
+    border-color: aquamarine;
+}
+
+.td2{
+    text-align: left;
+    border: none;
+   
+}
+
+.parent{
+    width: 50%;
+}
+
+.sub{
+    padding-left: 30%;
+    font-size: 15pt;
+}
+
+.submit{
+    width: 10%;
+    background-color: chartreuse;
+    border-color: chocolate;
+    border-radius: 20px;
+}
+
+.goback{
+    width: 10%;
+    margin-left: 80%;
+    background-color: rgb(212, 241, 46);
+    font-size: 20px;
+    border-radius: 30%;
+}
+
+footer{
+    background-color: yellow;
+    border-color: forestgreen;
+    border-style: solid;
+    width: 25%;
+    font-style: italic ;
+    padding-left: 120px;
+}
+

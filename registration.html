@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/nysl.css" type="text/css"> 
+    <link rel="shortcut icon" href="assets/nysl_logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&family=Roboto+Slab:wght@600&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cambay&family=Hachi+Maru+Pop&family=Indie+Flower&family=Potta+One&family=Roboto+Slab:wght@600&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hachi+Maru+Pop&family=Indie+Flower&family=Potta+One&family=Roboto+Slab:wght@600&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <title> Northside Youth Soccer League </title>
+</head>
+<body class="body">
+    <header class="header">
+        <img src="assets/juegopelota.jpg" alt="juego pelota">
+    </header>
+    
+    <div>
+        <img class="logo" src="assets/nysllogo.png" alt="logo nysl">
+    </div>
+
+    <div class="textoencima">
+        <h1>Northside Youth Soccer League</h1>
+    </div>
+
+    <nav class="nav">
+        <h2><b>Registration</b></h2>    
+    </nav> 
+
+    <aside class="aside">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="rules.html">Rules</a>
+        <a href="gameinfo.html">Game Info</a>
+        <a href="registration.html">Registration</a>
+        <a href="contact.html">Contact</a>
+    </aside>
+
+    <section class="section2">
+    <form action="showdata.html" method="GET">
+        <h2 class="h2.2">Registration Form</h2>
+        <br>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label for="name">Player’s First Name:</label>
+                <input type="text" id="name" name="name" value="">
+            
+            <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;Last Name:</label>
+                <input type="text" id="lname" name="lname" value="" class="lname">
+                <br>
+                <br> 
+            <label for="dir">Street Address:</label>
+                <input type="text" id="dir" name="dir" value="" class="dir">
+                <br>
+                <br>
+            <label for="city">City:</label>
+                <input type="text" id="city" name="city" value="" class="cid">
+            <label for="zip">&nbsp;&nbsp;&nbsp;&nbsp;Zip Code:</label>
+                <input type="text" id="zip" name="zip" value="" class="zip">
+                <br>
+                <br>
+            <label for="bid">Birth Date(mm/dd/yyyy):</label>
+                <input type="text" id="bid" name="bid" value="" class="bid">
+    
+            <label for="gen">&nbsp;&nbsp;&nbsp;&nbsp;Gender:</label>
+                <input type="radio" id="gen" name="hm" value="f" required>Female
+                <input type="radio" id="gen" name="hm" value="m" required>Male 
+                <br>
+                <br>
+            <label for="grade">Grade:</label>
+                <input type="radio" id="gr" name="gr" value="pre" required>Pre-School
+                <input type="radio" id="gr" name="gr" value="1" required>1st
+                <input type="radio" id="gr" name="gr" value="2" required>2nd
+                <input type="radio" id="gr" name="gr" value="3" required>3rd
+                <input type="radio" id="gr" name="gr" value="4" required>4th
+                <input type="radio" id="gr" name="gr" value="5" required>5th  
+        </fieldset>
+        <fieldset>
+            <legend><b>Location Information</b></legend>
+            <h3>Which elementary school do you live near?</h3>
+            <p>Closest School:</p>
+            <table class="table2">
+                <tbody>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="loc" name="loc" required>AJ Katzenmaier</td>
+                        <td class="td2"colspan="20"><input type="radio" id="loc" name="loc" required>Marjorie P Hart</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="loc" name="loc" required>Greenbay</td>
+                        <td class="td2" colspan="20"><input type="radio" id="loc" name="loc" required>North Elementary</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="loc" name="loc" required>Howard A Yeager</td>
+                        <td class="td2" colspan="20"><input type="radio" id="loc" name="loc" required>South Elementary</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset> 
+        <fieldset>
+            <legend><b>Player Position</b></legend>
+            <h3>What position(s) do you normally play? (check all that apply)</h3>
+             <table class="table2">
+                <tbody>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="pos" name="pos" required>Forward</td>
+                        <td class="td2"colspan="20"><input type="radio" id="pos" name="pos" required>Midfield</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="pos" name="pos" required>Defense</td>
+                        <td class="td2" colspan="20"><input type="radio" id="pos" name="pos" required>Goalkeeper</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>   
+        <fieldset>
+            <legend><b>Player Position</b></legend>
+            <h3>What position(s) do you normally play? (check all that apply)</h3>
+             <table class="table2">
+                <tbody>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="unif" name="unif" required>Youth Small</td>
+                        <td class="td2"colspan="20"><input type="radio" id="unif" name="unif" required>Medium</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="unif" name="unif" required>Youth Medium</td>
+                        <td class="td2" colspan="20"><input type="radio" id="unif" name="unif" required>Large</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="unif" name="unif" required>Youth Large</td>
+                        <td class="td2"colspan="20"><input type="radio" id="unif" name="unif" required>Extra-Large</td>
+                    </tr>
+                    <tr>
+                        <td class="td2" colspan="20"><input type="radio" id="unif" name="unif" required>Small</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset> 
+        <fieldset>
+            <legend><b>Permission</b></legend>
+            <h3>Permission to Play</h3>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of<br>
+                the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with<br>
+                soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,<br>
+                I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel<br>
+                and volunteers,including the facilities used for practices and games, against any claim by or on behalf<br>
+                of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from<br>
+                NYSL sponsored activities,which transportation.<br>
+                By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge<br>
+                that I have read the cancellation policy and agree to its terms.<br></p>
+            <label for="parent">Parent/GuardianSignature:</label>
+                <input type="text" id="parent" name="parent" value="" class="parent" required>
+            <label for="date">Date:</label>
+                <input type="date" id="date" name="date" value="" class="date" required>
+            <br>
+            <br>
+            <br>
+            <label for="submit" class="sub"><b>Send Permission</b></label>
+                <input type="submit" id="submit" name="submit" value="" class="submit">
+        </fieldset>  
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer><b><i>@Desarrollado por Jenny Barrientos</i></b></footer>  
+</body>
+</html>
